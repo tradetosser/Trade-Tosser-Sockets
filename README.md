@@ -26,7 +26,7 @@ socket.on('disconnect', () => {
  
 });
 
-  socket.on('Replace with pair you want to listen to', function(data) {
+  socket.on('**EURUSD**', function(data) {
     if(data.text == "CLOSE_DC"){ //If our data provider goes offline
     
     }else if(data.text == "CLOSE"){ //If the trade we are working with closes
