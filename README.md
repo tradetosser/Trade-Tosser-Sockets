@@ -73,7 +73,43 @@ socket.on('disconnect', () => {
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
- 
+Different events:
+
+
+On Manual Trade Close:
+Text = CLOSE
+Comment = Trade Manually Stopped
+Type = SHORT || LONG
+
+
+Manual Trade Open:
+Text = OPEN
+Comment = Trade Manually Open
+Type = SHORT || LONG
+
+Trade Open:
+Text = OPEN
+Comment = Trade Manually Open
+Type = SHORT || LONG
+
+
+Stop Price Reached:
+Text = CLOSE
+Comment = Stop Price Reached
+Type = SHORT || LONG
+
+Holding Period Reached:
+Text = CLOSE
+Comment = Holding Period Reached
+Type = SHORT || LONG
+
+
+Server crash:
+Text = CLOSE_DC
+Comment = Data provider crashed
+Type = SHORT || LONG
+
+
  
    
    [socket-io]: <https://socket.io/docs/>
