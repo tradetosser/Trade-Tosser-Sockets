@@ -89,7 +89,7 @@ Type = SHORT || LONG
 
 Trade Open:
 Text = OPEN
-Comment = Trade Manually Open
+Comment = Trade Open
 Type = SHORT || LONG
 
 
