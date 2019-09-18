@@ -105,7 +105,7 @@ Type = SHORT || LONG
 
 
 Server crash:
-Text = CLOSE_DC
+Text = CLOSE
 Comment = Data provider crashed
 Type = SHORT || LONG
 
