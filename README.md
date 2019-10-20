@@ -68,6 +68,7 @@ socket.on('disconnect', () => {
   - stopPrice | Stop price for the trade
   - comment  | Remarks for the trade
   - alert_id | Unique identifier for the trade
+  - targetPrice | Price we want to reach
      
  
 
