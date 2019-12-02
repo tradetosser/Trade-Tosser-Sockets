@@ -110,7 +110,22 @@ Text = CLOSE
 Comment = Data provider crashed
 Type = SHORT || LONG
 
+### Added API requests 
+JQuery example:
+```
+	const url = 'https://tradetosser.com/getAssetInfo';
+	const data = {
+	asset:"EURUSD",
+	token:"your-token-goes-here"
+	}
 
+	$.post(url,data,function(data,status){
+	console.log(data.text); 
+	});
+```
+text = CLOSED || LONG || SHORT 
+If the trade of that asset is closed there will no other info.
+If there is an active trade of that asset there will be a currentPrice that will provide you what's the current price of that asset 
  
    
    [socket-io]: <https://socket.io/docs/>
